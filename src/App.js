@@ -6,11 +6,15 @@ import Project from './components/Project'
 
 const App = () => {
   return (
-   <> 
-    <Navbar/>
-    <Project/>
-    <Footer/>
-   </>
+    <Router>
+      <div>
+        <Navbar/>
+        <Switch>
+
+        </Switch>
+        <Footer/>
+      </div>
+    </Router>
   )
 }
 
