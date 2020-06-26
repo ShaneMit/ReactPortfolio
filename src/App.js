@@ -5,7 +5,7 @@ import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import Project from './components/Project'
+import Project from './components/Projects'
 
 const App = () => {
   return (
