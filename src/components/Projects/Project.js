@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Project = props => {
   return(
@@ -8,8 +9,8 @@ const Project = props => {
           <div className="card-body">
             <h1>{props.title}</h1>
             <p className="card-text">{props.description}</p>
-            <link rel="stylesheet" href={props.githubLink}/>
-            <link rel="stylesheet" href={props.deployedLink}/>
+            <a href={props.deployedLink}>{props.title}</a>
+            <a href={props.githubLink}> GitHub</a>
           </div>
       </div>
     </>
