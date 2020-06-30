@@ -8,6 +8,7 @@ import NoteTaker from './../../assets/NoteTaker.png'
 import ComingSoon from './../../assets/ComingSoon.png'
 
 
+
 const myProjects = [
   {
     title: 'Listivity',
