@@ -59,7 +59,7 @@ const myProjects = [
 
 const Projects = () => {
   return(
-    <div style={{display: 'flex', flexWrap: 'wrap', padding: '20px', paddingBottom: '80px'}}> 
+    <div style={{display: 'flex', flexWrap: 'wrap', padding: '20px'}}> 
       {myProjects.map(project => {
         return <Project imageAddress={project.imageAddress} title={project.title} description={project.description} githubLink={project.githubLink} deployedLink={project.deployedLink}/>
       })}
