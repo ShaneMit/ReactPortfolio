@@ -5,7 +5,7 @@ import Monterey from './../../assets/Monterey.jpg'
 
 const Carousel = () => {
   return (
-    <div id="carouselExampleControls" className="carousel slide container carousel-fade" data-ride="carousel">
+    <div id="carouselExampleControls" className="carousel slide container carousel-fade" data-ride="carousel" style={{paddingBottom: '20px'}}>
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src={ArchRock} className="d-block w-100" alt="ArchRock"/>
